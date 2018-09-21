@@ -1,0 +1,129 @@
+
+
+.chosen-choices .search-field::after {
+    font-family: 'fontawesome';
+    font-size: 13px;
+    display: inline-block;
+    right: 12px;
+    position: absolute;
+    cursor: pointer;
+    content: '\f0d7';
+    color: #555;
+    top: 2px;
+}
+
+.filters .choose-item .chosen-choices,
+.filters .choose-item .chosen-container,
+.filters .choose-item .chosen-choices,
+.filters .choose-item .chosen-container {
+    width: 100% !important;
+}
+
+.invest-filters  {
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    display: table-cell
+}
+
+.eu-rect {
+    display: inline-block;
+    width: 112px;
+    height: 81px;
+    margin: 0 15px;
+    cursor: pointer;
+    background: #f6f6f6;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 20px 5px;
+}
+
+.eu-rect {
+    display: inline-block;
+    width: 112px;
+    height: 81px;
+    margin: 0 15px;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 20px 5px;
+    background: #ececec !important;
+}
+
+.eu_pr:checked + a .eu-rect {
+    border: 1px solid #c9c8c8;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px #b3aeae;
+}
+
+.eu_pr + a .eu-rect .fa {
+    position: relative;
+    top: 0;
+    font-size: 24px;
+}
+
+.eu_pr:checked + a .eu-rect span, 
+.eu_pr:checked + a .eu-rect .fa {
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.eu_pr + a .eu-rect span {
+    font-size: 13px;
+    line-height: 1.3;
+    display: block;
+    letter-spacing: 2px;
+}
+
+.eu_pr:not(:checked) + a .eu-rect span {
+    color: #5a5a5a !important;
+}
+
+.eu_pr:checked + a .eu-rect {
+	background: #a7da52 !important;
+	padding-left: 4px;
+}
+
+
+.eu_pr:not(:checked) + a .eu-rect {
+	background: #fafafa;
+	color: grey;
+}
+
+.choose-item {
+    height: 80%;
+    padding: 8px 6px;
+    clear: both;
+}
+
+.invest-filters .choose-item .chosen-container {
+    width: 85% !important
+}
+
+.invest-filters p {
+    font-weight: bold;
+    color: #8c8b8b;
+    padding: 0;
+    margin-bottom: 4px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.invest-filters legend {
+	color: grey;
+	padding: 0 6px;
+	margin-top: -4px;
+	letter-spacing: 1px;
+	margin-left: -11px !important;
+}
+
+.priorities-btn .fa {
+    font-size: 14px;
+    margin-left: 8px;
+    top: 1px;
+    position: relative;
+    margin-top: -4px;
+}

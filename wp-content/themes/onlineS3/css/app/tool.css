@@ -1,0 +1,68 @@
+
+
+.tool-page {
+    padding: 1rem;
+}
+
+.logic-template {
+    display: block;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    white-space: unset;
+    clear: both;
+    border: 1px solid #DDDDDD;
+    width: 865px;
+    padding: 0;
+}
+
+.logic-tabs {
+    background: #fff;
+    display: block;
+    min-height: 20rem;
+}
+
+.axis-template {
+    display: inline-block;
+    width: 820px;
+    border: 1px solid #cccccc;
+}
+
+.btn-logic {
+    border-color: #bfbfbf;
+    color: #fff;
+    padding: 4px 18px 5px 10px;
+    font-size: 13px;
+    font-family: tahoma;
+    background: linear-gradient(#b0b0b0,#7b7b7b);
+    letter-spacing: 1px;
+}
+
+.btn-logic .fa {
+    left: 9px;
+    position: relative;
+    font-size: 14px;
+}
+
+.main-btn {
+    text-align: right;
+    border-bottom: 1px dashed #ddd;
+    /*! width: 100%; */
+    margin-bottom: -10px;
+    padding: 0;
+    margin: 0;
+    border: 1px;
+    /*! border: 1px solid grey; */
+    display: table;
+    position: relative;
+    float: right;
+    padding: 0 0px 10px 10px;
+    margin-bottom: -7px;
+}
+
+
+#tool h2 {
+    color: #3875d7;
+    padding: 0;
+    letter-spacing: 1px;
+    margin: 0;
+}

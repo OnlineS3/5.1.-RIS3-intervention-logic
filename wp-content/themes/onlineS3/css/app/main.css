@@ -1,0 +1,176 @@
+
+.interlogic {
+    position: relative;
+    float: left;
+    width: 1000px;
+    margin-bottom: 53px;
+    min-height: 34rem;
+    width: 900px;
+    display: table-cell;
+}
+
+.invest-filters {
+    width: 837px;
+    padding: 35px 24px;
+    position: relative;
+    width: 865px;
+}
+
+.priorities-btn {
+    float: right;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    border: 2px solid #e6e6e6;
+    letter-spacing: 1.5PX;
+    right: 7px;
+    position: relative;;
+    padding: 7px 8px;
+    background: #e8e8e8;
+    color: #007ce2;
+    color: #727272 !important;
+}
+
+.priorities-btn:hover {
+    opacity: .8
+}
+
+.chosen-container-single .chosen-single span {
+	max-width: 38rem;
+}
+
+.interlogic fieldset legend {
+	font-weight: bold !important;
+	color: #888888;
+	letter-spacing: 1px;
+	margin-left: 7px;
+	padding: 0 6px;
+	font-size: 12px !important;
+}
+
+.img-div {
+    position: relative;
+    float: right;
+    padding: 10px;
+    width: 100%;
+    text-align: right;
+    border-top: 1px dashed #c3c2c2;
+}
+
+
+#save-fa,
+#new-fa,
+#export-fa {
+    position: relative;
+    right: 24px;
+    color: white;
+    top: 7px;
+    font-size: 14px;
+}
+
+#new-prio,
+#save-prio,
+#export-report {
+    width: 140px;
+    margin-right: 0;
+    text-align: left;
+    border-width: 1px;
+    font-weight: bold !important;
+    border: 1px solid #e6e6e6;
+    background: #F7F7F7 !important;
+    font-size: 11px !important;
+    letter-spacing: 1px;
+    padding: 6px 10px;
+}
+
+#new-fa,
+#save-fa,
+#export-fa {
+    font-size: 15px;
+    right: 26px;
+}
+
+#new-prio,
+#new-fa {
+    color: #E24961;
+}
+
+#new-prio {
+    width: 134px;
+}
+
+#new-fa {
+    font-size: 14px;
+    right: 31px;
+}
+
+#save-prio,
+#save-fa {
+    color: #6b6868;
+    color: #007ce2;
+}
+
+#export-report,
+#export-fa {
+    color: #6d6c6c;
+}
+
+#export-report {
+    position: relative;
+    float: right;
+    width: 172px;
+    color: white;
+    background: linear-gradient(#F68F9A,#E6373C) !important;
+    font-weight: normal !important;
+    padding: 4px 18px 5px 12px;
+    font-size: 13px !important;
+    font-family: tahoma;
+    margin-right: 20px;
+    
+}
+
+#export-report .fa {
+    position: absolute;
+    right: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.swal2-cancel {
+    background-color: rgb(242, 242, 242) !important;
+    color: #939292 !important   
+}
+
+#save-prio:disabled,
+#save-prio:disabled + #save-fa {
+    color: #a7bbcc;
+}
+
+input[type="checkbox"]:disabled:checked + a label.eu-rect {
+    background: #c3c3c3 !important;
+    box-shadow: none;
+}
+
+input[type="checkbox"]:disabled + a label.eu-rect {
+    cursor: default
+}
+ 
+.error {
+    display: block;
+    color: #e41717;
+    font-family: verdana;
+    font-size: 11px;
+}
+
+.toggle-item + label:hover {
+    opacity: .8
+}
+
+.toggle-item + label:hover span {
+    color: #e06415 !important;
+    color: #1b87e3 !important;
+}
+
+.toggle-item + label:hover {
+    background: linear-gradient(#ffffff ,#e7e4e4 )
+}

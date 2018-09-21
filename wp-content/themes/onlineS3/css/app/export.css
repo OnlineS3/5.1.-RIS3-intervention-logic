@@ -1,0 +1,75 @@
+
+#export {
+    margin: 0;
+    background: white;
+}
+
+#export .interbox {
+    display: table
+}
+
+#export .inner-box {
+    display: table-cell;
+}
+
+#export .layer.one .interbox {
+    height: 203px;
+}
+
+#export .layer.two .interbox {
+    height: 24rem;
+}
+
+#export .layer.three .interbox {
+    height: 195px;
+}
+
+#export .layer.four .interbox {
+    height: 195px;
+}
+
+#export .layer.three {
+    padding-right: 23px;
+}
+
+#export #arrow-2.first {
+    right: 9px;
+}
+
+#export #arrow-2.second .triangle {
+    right: 11px;
+}
+
+#arrow-2.second .up {
+    width: 25px;
+}
+
+#export .del-icon {
+    display: none
+}
+
+#export .added-cont span {
+    display: table-cell;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+#export .added-item {
+    text-overflow: initial;
+    white-space: initial;
+    overflow: hidden;
+    max-width: 100%;
+    width: 95%;
+    resize: none;
+    line-height: 1.3;
+    margin: 3px 4px;
+    display: table-cell;
+}
+
+#export .added-cont {
+    display: flex;
+}
+
+#export .sub-content {
+    display: inline-block;
+}

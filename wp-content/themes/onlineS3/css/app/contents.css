@@ -1,0 +1,266 @@
+
+
+#contents {
+    margin-top: 0rem;
+    width: 820px;
+}
+
+#contents .category-block {
+    padding: 0
+}
+
+#contents label.prio-label::before {
+    position: relative;
+    display: inline-block;
+    left: -19px;
+    top: 11px;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    z-index: 2;
+    font-weight: normal;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #6ecb68;
+    content: '';
+    padding: 8px;
+}
+
+#contents label.prio-label.current::before {
+    background-color: #fc5d58;
+    font-size: 14px;
+    width: 2rem;
+    height: 2rem;
+    font-size: 15px;
+    padding-top: 16px;
+}
+
+#contents label.prio-label.prio-0::before {
+    background-image: url('../../../../../images/smart.png');
+    background-size: 48%;
+    background-position: center;
+}
+
+#contents label.prio-label.prio-1::before {
+    background-image: url('../../../../../images/sustain-alt.png');
+    background-size: 63%;
+    background-position: center;
+}
+
+#contents label.prio-label.prio-2::before {
+    background-image: url('../../../../../images/inclusive.png');
+    background-size: 65%;
+    background-position: center;
+}
+
+#contents label.prio-label {
+    margin-left: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+    padding: 11px 0;
+    color: #80877a;
+    padding-bottom: 0;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+#contents label.prio-label.current {
+    color: #666666;
+    font-weight: 600;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#contents .object-label {
+    text-decoration: none;
+    color: #625a5a;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    display: inline-block;
+    top: 0;
+    margin-bottom: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#contents .object-label::before {
+    position: relative;
+    display: inline-block;
+    left: -14px;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+    font-size: 11px;
+    text-align: center;
+    z-index: 2;
+    font-family: 'fontawesome';
+    line-height: 0;
+    font-weight: normal;
+    color: white;
+    background-color: #8bc386;
+    border: 2px solid #9abd97;
+    content: "";
+}
+
+#contents ul.object {
+    list-style-type: none
+}
+
+#contents ul.object > li {
+    margin: 0 0 1rem 27px;
+    position: relative;
+    padding-top: 8px;
+}
+
+#contents ul.object > li::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: -28px;
+    top: 22px;
+    width: 27px;
+    margin: auto;
+    height: 1px;
+    border-bottom: 2px solid #accbaa;
+}
+
+#contents ul.object > li::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: -29px;
+    margin: auto;
+    height: calc(100% + (39px));
+    width: 1px;
+    border-left: 2px solid #74bc6f;
+}
+
+#contents ul.object > li:first-child::after {
+    top: 22px;
+}
+
+#contents ul.object li:last-child::after {
+    height: 0px;
+}
+
+#contents ul.object li:first-child::after {
+    bottom: 0;
+}
+ 
+#contents input[type='checkbox'].prio-check:not(:checked) + .prio-block {
+    display: none
+}
+
+#contents input[type='checkbox'].prio-check:checked + .prio-block {
+    display: block
+}
+
+#contents input[type='checkbox'].obj-check:not(:checked) + .road {
+    display: none
+}
+
+#contents input[type='checkbox'].obj-check:checked + .road {
+    display: block
+}
+
+#contents ul.road {
+    margin-left: -6px;
+    margin-top: -5px;
+    padding-top: 0;
+}
+
+#contents ul.road li {
+    list-style-type: none;
+    position: relative;
+    padding: 0px 0;
+    margin-left: 0px;
+}
+
+#contents ul.road li a {
+    display: block;
+    padding: 5px 0;
+    margin-left: 24px;
+    z-index: +2;
+    position: relative;
+    font-size: 13px;
+    text-decoration: none;
+    color: #525151;
+    cursor: default;
+    font-family: verdana;
+    font-size: 13px;
+    margin-left: 13px;
+}
+    
+#contents ul.road li::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: -30px;
+    top: 19px;
+    width: 21px;
+    margin: auto;
+    height: 1px;
+    border-bottom: 1px solid #74bc6f;
+}
+
+#contents ul.road li::after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: 4px;
+    bottom: 0;
+    left: -30px;
+    margin: auto;
+    height: calc(100% + (36px));
+    width: 1px;
+    border-left: 1px solid #74bc6f;
+}
+
+#contents ul.road li a::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    left: -27px;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    width: 11px;
+    height: 11px;
+    margin: auto;
+    padding-top: 0px;
+    border-radius: 100%;
+    color: #fff;
+    background-color: #fc5d58;
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+    top: 14px;
+    bottom: auto;
+    pointer-events: none;
+    background-color: white;
+    border: 1px solid #7ca77a;
+}
+
+#contents .content-header {
+	font-style: normal;
+    font-weight: 400;
+    clear: both;
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    color: #ff4e4e;
+    letter-spacing: 1px;
+    padding: 12px 20px 0px 20px;
+}
+
+#contents ul.object li.unique:last-child::after {
+	height: 29px;
+	margin: 0;
+	top: -9px;
+}
+	

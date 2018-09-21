@@ -1,0 +1,160 @@
+
+.info-div {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    float: right;
+    right: 17px;
+    top: 10px;
+    background: #e0e0e0;
+}
+
+.info-div:hover {
+    opacity: .8
+}
+
+.invest-filters .info-div {
+    background: #E1E1E1;
+    top: -27px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    position: relative;
+    right: -9px;
+    box-sizing: border-box;
+}
+
+.invest-filters .info-div .fa {
+    position: absolute;
+    bottom: 3px;
+    color: #6c7a86;
+}
+
+.info-div:hover {
+    pointer: cursor
+}
+
+.info-div .fa {
+    position: relative;
+    left: 7px;
+    top: -3px;
+    color: #2f2f2f;
+}
+
+.notes {
+    width: 345px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px #eaeaea;
+    float: right;
+    bottom: -50%;
+    position: absolute;
+    right: -335px;
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem;
+    background: #f9f9f9;
+    opacity: .9;
+    z-index: 1000;
+    max-height: 21rem;
+    line-height: 2;
+    top: -2rem;
+    border-radius: 6px;
+}
+
+.info-div.inner + .notes  {
+	right: 41px;
+}
+
+.layer.one .notes {
+    height: 15rem;
+}
+
+.layer.two .notes {
+    height: 20rem;
+}
+
+.layer.three .notes {
+    height: 14rem;
+}
+    
+.layer.four .notes {
+    height: 9rem;
+}
+
+.notes-title {
+    color: #e6031f !important;
+    font-size: 14px !important;
+    padding: 0 !important;
+    text-align: center;
+    position: static;
+    margin: 0;
+    letter-spacing: 2px !important;
+    line-height: 1.5;
+    font-family: "verdana";
+    font-weight: bold !important;
+}
+
+.notes-body {
+    text-align: center;
+    font-size: 13px !important;
+    font-family: verdana;
+    padding: 0;
+    margin: 6px 0 0;
+    color: #000000 !important;
+    line-height: 1.8;
+    font-weight: normal !important;
+    border-radius: 2px;
+}
+
+.notes .fa-times {
+    position: relative;
+    float: right;
+    top: -24px;
+    color: #8a8585;
+    font-size: 12px;
+    text-shadow: 1px 1px #c0bebe;
+    right: -5px;
+}
+
+.container.active {
+    border: 3px
+}
+
+.notes .fa-times:hover {
+    cursor: pointer
+}
+
+.notes.move-one {
+    bottom: -16%;
+    right: -22rem;
+    opacity: 1
+}
+
+.notes.move-two {
+	width: 19rem;
+    bottom: -16%;
+    right: -20rem;
+    opacity: 1
+}
+
+.invest-filters .notes {
+    width: 319px;
+    top: -23px;
+    position: absolute;
+    right: -315px;
+    max-height: 13rem;
+}
+
+.logic-description .notes {
+    top: 0;
+    max-height: 9rem;
+}
+
+.invest-filters .info-div .fa {
+    top: 3px;
+}
+    
+.info-div.inner {
+    right: 25rem
+}

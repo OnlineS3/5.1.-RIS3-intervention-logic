@@ -1,0 +1,928 @@
+
+.layer {
+    position: relative;
+    max-width: 60rem;
+    display: table;
+}
+
+.layer:not(:last-child) {
+    min-height: 128px;
+    border-bottom: 1px solid #d4d2d2;
+    border-bottom: 2px dashed #d4d2d2;
+    border: none;
+}
+
+.layer.three {
+    border: none
+}
+
+.box {
+    display: inline-block;
+    width: 135px;
+    height: 89px;
+    position: relative;
+    border-radius: 2px;
+    text-align: center;
+    background: linear-gradient(#fff, #fafafa);
+    margin-left: 1.5rem;
+    width: 132px;
+    height: 83px;
+    border: 1px solid #eee;
+}
+
+.box-title {
+    letter-spacing: 2px;
+    position: relative;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #323131 !important;
+    top: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: none !important;
+    border: none !important;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.box .pencil-div {
+    display: inline-block;
+    top: 57px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: white;
+    right: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: white;
+}
+
+.box .fa {
+    left: 1px;
+    top: 1px;
+    font-size: 15px;
+    font-size: 16px;
+    top: 2px;
+    position: relative;
+    color: grey;
+    right: -1rem;
+}
+
+.box.parent {
+    border: 2px solid;
+    width: 156px;
+    height: 90px;
+    width: 135px;
+    position: relative;
+    top: 2rem;
+    float: left;
+    margin-left: 20px;
+}
+
+.box.parent label {
+    top: 8px;
+}
+
+.box.child {
+    height: 84px;
+    width: 122px;
+}
+
+.box.child p,
+.box.child input {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.box.child .circle-pencil {
+    left: 4px;
+    top: -5px;
+    font-size: 15px;
+}
+
+.box.new {
+    width: 120px;
+    border: 1px dotted grey;
+}
+
+.box.new button {
+    width: 24px;
+    height: 24px;
+    border-radius: 2rem;
+    position: relative;
+    right: 0;
+    top: 33%;
+    border: 2px solid #787878;
+    background: none;
+/*    z-index: 20000*/
+}
+
+.box.new button .fa {
+    color: #787878;
+    left: -5px;
+    font-size: 12px;
+    top: -7px;
+    position: relative;
+}
+
+.layer.one .box:not(.new) {
+    border: 1px solid #6D7989;
+}
+
+.layer.one .box:not(.new) .fa {
+    color: #6D7989 !important;
+}
+
+.layer.two .box:not(.new) {
+    border: 1px solid #E3B952;
+}
+
+.layer.two .box:not(.new) .fa {
+    color: #E3B952 !important;
+}
+
+.layer.three .box:not(.new) {
+    border: 1px solid #db4437;
+}
+
+.layer.three .box:not(.new) .fa {
+    color: #BF3E2E;
+}
+
+.layer.four .box:not(.new) {
+    border: 1px solid #6E7D92;
+}
+
+
+.layer.one .box.alt  .box-title {
+    background: #F6BF3A;
+}
+
+.layer.two .box.alt  .box-title {
+    background: #6D7989;
+}
+
+.layer.three .box.alt  .box-title {
+    background: #fb695c;
+}
+
+.priority-container {
+    width: 12rem;
+    height: 11rem;
+    border-radius: 17px;
+    margin-left: 1.5rem;
+    margin-top: 18px;
+    text-align: center;
+    background: #f9f9f9;
+    height: auto;
+    padding: .4rem 0 1rem 0;
+    display: inline-block;
+}
+
+.priority-title {
+    text-align: center;
+    top: 1rem;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 10px;
+    font-size: 13px;
+    color: #4889cf;
+    font-weight: bold;
+}
+
+.priority-container .box {
+    bottom: 0;
+    width: 117px;
+    margin-left: 0;
+    height: 80px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    bottom: 0
+}
+
+.priority-container .box.new div {
+    width: 27px;
+    height: 27px;
+    border-radius: 2rem;
+    border: 2px solid #787878;
+    position: absolute;
+    left: 40%;
+    top: 33%;
+}
+
+.priority-container .box.new .fa {
+    color: #787878;
+    left: 0;
+    font-size: 14px;
+    top: 0px;
+    position: relative;
+}
+
+.layer.one .container {
+    box-shadow: 2px 2px 2px #b9b7b7;
+    border: 1px solid #b9b7b7;
+}
+
+.layer.two .container {
+    box-shadow: 2px 2px 2px #D5C499;
+    border: 1px solid #D5C499;
+}
+
+.layer.three .container {
+    box-shadow: 2px 2px 2px #a26560;
+    border: 1px solid #c5b5b3;
+}
+
+.layer hr {
+    border: none;
+    margin: 30px -10px 1rem -10px;
+}
+
+.layer.two hr {
+    border-top: 1px dashed #E3B952;
+}
+
+.tool-page {
+    padding: 0;
+}
+
+.logic-template {
+	margin-bottom: 1rem;
+	margin-top: 0;
+	white-space: unset;
+	max-width: 857px;
+	clear: both;
+	display: flow-root;
+	border: 1px solid #ddd;
+}
+
+.logic-template legend {
+    color: grey;
+    padding: 0 6px;
+    /* margin-top: -4px; */
+    letter-spacing: 1px;
+    margin-left: 9px;
+}
+
+.logic-tabs {
+    background: #fff;
+    display: block;
+    min-height: 20rem;
+}
+
+.layer {
+    position: relative;
+    max-width: 60rem;
+    display: flex;
+    margin: 4px 0;
+}
+
+.layer:not(:last-child) {
+    min-height: 117px;
+    border-bottom: 1px solid #d4d2d2;
+    border-bottom: 2px dashed #d4d2d2;
+    border: none;
+}
+
+.layer.three,
+.layer.four {
+    border: none;
+    display: flex;
+    float: left;
+    left: 8px;
+    /*! padding-right: 33px; */
+}
+
+
+.box {
+    display: inline-block;
+    width: 135px;
+    height: 89px;
+    position: relative;
+    border-radius: 2px;
+    text-align: center;
+    background: linear-gradient(#fff, #fafafa);
+    margin-left: 1.5rem;
+    width: 132px;
+    height: 80px;
+    border: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.box-title {
+    letter-spacing: 2px;
+    position: relative;
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #323131 !important;
+    top: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    background: none !important;
+    border: none !important;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 13px;
+}
+
+.box .pencil-div {
+    display: inline-block;
+    top: 57px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    right: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: white;
+}
+
+
+.box .fa {
+    left: 1px;
+    top: 1px;
+    font-size: 15px;
+    font-size: 16px;
+    top: 2px;
+    position: relative;
+    color: grey;
+    right: -1rem;
+}
+
+.box.parent {
+    border: 2px solid;
+    width: 156px;
+    height: 90px;
+    width: 128px;
+    border-width: 2px !important;
+	border-width: 1px !important
+}
+
+.box.parent label {
+    top: 8px;
+}
+
+.box.child {
+    height: 80px;
+    width: 110px;
+}
+
+.box.child p {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.box.child .circle-pencil {
+    left: 4px;
+    top: -5px;
+    font-size: 15px;
+}
+
+.box.new {
+    width: 105px;
+    border: 1px dotted grey;
+    height: 78px;
+    bottom: 0;
+}
+
+.box.new button {
+    width: 24px;
+    height: 24px;
+    border-radius: 2rem;
+    position: relative;
+    right: 0;
+    top: 33%;
+    border: 2px solid #787878;
+    background: none;
+}
+
+.box.new button .fa {
+    color: #787878;
+    left: -5px;
+    font-size: 12px;
+    top: -7px;
+    position: relative;
+}
+
+.layer.one .box:not(.new) {
+    border: 1px solid #59729F
+}
+
+.layer.one .box:not(.new) .fa {
+    color: #59729F !important;
+}
+
+.layer.two .box:not(.new) {
+    border: 1px solid #EFB053
+}
+
+.layer.two .box:not(.new) .fa {
+    color: #EFB053 !important;
+}
+
+.layer.three .box:not(.new) {
+    border: 1px solid #FB776C;
+}
+
+.layer.three .box:not(.new) .fa {
+    color: #4DA2B1;
+	color: #FB776C;
+}
+
+.layer.four .box:not(.new) {
+    border: 1px solid #6E7D92;
+}
+
+.layer.four .box:not(.new) .fa {
+    color: #6E7D92;
+}
+
+
+.priority-container {
+    width: 12rem;
+    height: 11rem;
+    border-radius: 17px;
+    margin-left: 1.5rem;
+    margin-top: 18px;
+    text-align: center;
+    background: #f9f9f9;
+    height: auto;
+    padding: .4rem 0 1rem 0;
+    display: inline-block;
+}
+
+.priority-title {
+    text-align: center;
+    top: 1rem;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 10px;
+    font-size: 13px;
+    color: #4889cf;
+    font-weight: bold;
+}
+
+.priority-container .box {
+    bottom: 0;
+    width: 117px;
+    margin-left: 0;
+    height: 80px;
+    border: none;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    bottom: 0
+}
+
+.priority-container .box.new div {
+    width: 27px;
+    height: 27px;
+    border-radius: 2rem;
+    border: 2px solid #787878;
+    position: absolute;
+    left: 40%;
+    top: 33%;
+}
+
+.priority-container .box.new .fa {
+    color: #787878;
+    left: 0;
+    font-size: 14px;
+    top: 0px;
+    position: relative;
+}
+
+.container {
+    display: inline-block;
+    margin: 12px auto;
+    height: auto;
+    padding: 0 30px 20px 30px;
+    margin-left: 2rem;
+    width: 665px;
+}
+
+.layer.one .container {
+    box-shadow: 2px 2px 2px #84939c;
+    border: 1px solid #E3E6EC;
+    padding: 0 30px 20px 4px;
+    height: 8rem;
+    border-bottom: none;
+    border-right: none;
+}
+
+.layer.two .container {
+    box-shadow: 3px 3px 3px #F0ECE7;
+    border: 1px solid #E3D7D0;
+    padding: 0 30px 20px 41px;
+    box-shadow: 2px 2px 2px #9b9c9a;
+    border: 1px solid #969697;
+    padding: 0 9px 20px 4px;
+    height: 13rem;
+    border-bottom: none;
+    border-right: none;
+    width: 49rem;
+    background: #f6f7f7;
+    /* display: none; */
+}
+
+.layer.three .container {
+    box-shadow: 3px 3px 3px #EDF2F3;
+    border: 1px solid #c5b5b3;
+}
+
+.layer.four .container {
+    box-shadow: 3px 3px 3px #D4D4D4;
+    border: 1px solid #6D7989;
+}
+
+.layer hr {
+    /* border: none; */
+    margin: 30px -10px 1rem -10px;
+}
+
+.layer.two hr {
+    border-top: 1px dashed #E3B952;
+}
+
+.layer.two .section-header {
+    padding: 0;
+    margin: 0;
+    color: #EDC159;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: -1rem;
+    letter-spacing: 2px;
+    font-family: verdana;
+    display: inline;
+    position: relative;
+    left: 6px;
+    float: left;
+    margin-top: -39px;
+    margin-bottom: 0;
+}
+
+
+.layer.three .container.vertical,
+.layer.four .container.vertical {
+    width: 302px;
+    height: 10rem;
+    display: table;
+    padding-bottom: -5px;
+    margin-bottom: 0rem;
+	padding-top: 0rem;
+}
+
+.container .header {
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 1px;
+	margin-bottom: 1rem;
+}
+
+.container.alt .box {
+    width: 90px;
+    height: 70px;
+    margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+.container.vertical {
+    width: 20rem;
+    height: 10rem;
+    padding: 0;
+    display: table;
+}
+
+.three .container .header {
+    background: #FB776C;
+    /* background: #00ABC6; */
+}
+
+.four .container .header {
+    background: #E7D485;
+    margin-top: -22px;
+    margin-top: 2px;
+	background: #6E7D92;
+}
+
+.layer.four {
+    float: left;
+    margin: 2rem 0 1rem 0;
+    margin-top: 7px;
+}
+   
+
+.vertical .box .pencil-div {
+    top: 47px;
+}
+
+.vertical .box .box-title {
+    top: 5px;
+}
+/*
+#cont-six .container::after {
+    content: '';
+    display: block;
+    height: -1rem;
+    width: 19px;
+    background: white;
+    position: relative;
+    bottom: -39px;
+    left: 155px;
+    border: 1px solid #A6A9AD;
+    height: 35px;
+    background: linear-gradient(#CFD6E4,#7A818D);
+    background: linear-gradient(#CFD6E4,#72839F);
+}*/
+/*
+#cont-eight .container::before {
+    width: 0;
+    height: 0;
+    border-top: 18px solid #72839F;
+    border-bottom: 17px solid transparent;
+    border-right: 17px solid transparent;
+    position: relative;
+    content: '';
+    left: 148px;
+    bottom: 0px;
+    opacity: .92;
+    border-left: 17px solid transparent;
+}*/
+
+.two .box.parent {
+    height: 460px !important;
+    width: 7rem !important;
+    /*! top: 3rem !important; */
+    /*! transform: rotate(270deg); */
+    display: inherit;
+    left: 0;
+    position: relative;
+    float: left;
+    display: inline-block;
+    /*! margin-left: -9rem; */
+    /*! margin-top: 15px; */
+    top: 0;
+    margin-left: 24px;
+    /*! margin-top: 194px; */
+    /*! margin-right: 26px; */
+    padding-top: 2rem;
+}
+
+.parent-container {
+    position: relative;
+    /* display: flex; */
+    margin: 19px 0;
+    padding-left: 24px;
+    min-height: 116px;
+    max-width: 652px;
+    /*! margin-left: 30px; */
+}
+
+.three .parent-container,
+.four .parent-container {
+	padding-left: 5px;
+	/*! margin-left: 31px; */
+}
+
+.one .box.parent {
+    top: 0;
+	height: 123px !important;
+	width: 7rem !important;
+	padding: 0;
+	left: 4px;
+	margin-top: 19px;
+	padding-top: 12px;
+}
+
+.one .box.parent input {
+    transform: rotate(270deg);
+    font-size: 19px; 
+}
+
+.two .box.parent input {
+    /*! transform: rotate(270deg); */
+    font-size: 20px;
+    /*! margin-top: 11rem; */
+    width: 27rem;
+    /*! padding-top: 28px; */
+    /*! margin-right: -2px; */
+    letter-spacing: 2px;
+    transform: rotate(270deg);
+}
+
+.three .box.parent {
+	top: 1px;
+	height: 9rem !important;
+	width: 7rem !important;
+	left: 0;
+	padding-top: 5px;
+	/*! transform: rotate(270deg); */
+	margin-left: 18px;
+	/*! margin-top: 19px; */
+}
+
+.three .box.parent input {
+    font-size: 19px;
+	padding: 0;
+}
+
+.layer.two .header-div {
+    width: 38px;
+    background: #FCD67B;
+    display: inline-block;
+    height: 96%;
+    margin: 0;
+    position: absolute;
+    top: 2px;
+    left: 27px;
+    text-align: center;
+    background: #EFB053;
+}
+
+
+.layer.two .header-div p {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-family: verdana;
+    transform: rotate(270deg);
+    color: white;
+    font-weight: bold;
+    top: 59%;
+    position: relative;
+    left: -4px;
+    line-height: 1.3;
+    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    margin: 0
+}
+
+.two-all-divs {
+    display: inline;
+    position: relative;
+    /*! float: right; */
+    /*! right: 0; */
+    top: 0;
+    left: 0;
+    margin-left: 0;
+}
+
+.four .box.parent {
+	top: 1px;
+	height: 10rem !important;
+	width: 7rem !important;
+	margin-right: 0px;
+	right: 3px;
+	padding-top: 12px;
+	/*! transform: rotate(270deg); */
+	margin-left: 18px;
+	margin-top: 17px;
+}
+
+.four .box.parent input {
+	font-size: 18px;
+	padding: 0;
+	width: 8rem;
+	text-overflow: unset;
+}
+
+#cont-nine .container .header {
+    margin-top: 2px;
+}
+
+#arrow-1 {
+    position: absolute;
+    bottom: -33px;
+    left: 290px;
+}
+
+#arrow-2.first {
+    width: 8px;
+    display: inline-block;
+    background: #B4B4B4;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 18px;
+    float: right;
+    right: 6px;
+    height: calc(100% + (-36px));
+}
+
+#arrow-2.second {
+    width: 8px;
+    display: inline-block;
+    background: #B4B4B4;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 18px;
+    float: right;
+    position: relative;
+    right: -3px;
+    height: calc(100% + (-36px));
+}
+
+#arrow-2.second .up {
+	width: 1rem;
+	height: 3px;
+	background: #C2B9B5;
+	position: absolute;
+	right: 3px;
+}
+
+#arrow-2.second .down {
+	width: 1rem;
+	height: 3px;
+	background: #C2B9B5;
+	position: absolute;
+	right: 3px;
+	bottom: 0;
+}
+
+#arrow-2.second {
+	float: right;
+	right: 0px;
+	width: 9px;
+	display: inline-block;
+	background: #c9cbcf;
+	position: absolute;
+	height: calc(100% + (71px));
+	top: 334px;
+	/* background: #f99999; */
+}
+
+#arrow-2.second .up {
+	width: 14px;
+	height: 9px;
+	background: #c9cbcf;
+	position: absolute;
+	/* background: #f99999; */
+	right: 3px;
+}
+
+#arrow-2.second .down {
+	width: 24px;
+	height: 9px;
+	background: #c9cbcf;
+	position: absolute;
+	right: 3px;
+	bottom: 0;
+	/* background: #f99999; */
+}
+
+#arrow-2.second .triangle {
+    bottom: -8px;
+    float: left;
+    right: 20px;
+    position: absolute;
+    display: none;
+}
+
+#cont-one {
+	/*! min-height: 126px; */
+	margin-left: 6px;
+}
+
+.box.parent .box-title {
+	font-weight: bold;
+	color: gray !important;
+	text-overflow: initial;
+}
+	
+#cont-six,
+#cont-eight {
+	margin-right: 16px;
+	margin-left: 18px;
+}
+
+/* 2px if added on children */
+/* .layer.one .box.parent { */
+    /* border: 2px solid #7389B1 !important; */
+/* } */
+
+/* .layer.two .box.parent { */
+    /* border: 2px solid #F3C47E !important; */
+/* } */
+
+/* .layer.three .box.parent { */
+    /* border: 2px solid #FE9188 !important; */
+/* } */
+
+/* .layer.four .box.parent { */
+    /* border: 2px solid #8496B0 !important; */
+/* } */
+
+
+.layer.three {
+	padding-right: 33px;
+}

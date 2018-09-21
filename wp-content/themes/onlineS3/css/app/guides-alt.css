@@ -1,0 +1,230 @@
+
+.info-div {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    cursor: pointer;
+    float: right;
+    right: 17px;
+    top: 10px;
+    background: #e0e0e0;
+}
+
+.info-div:hover {
+    opacity: .8
+}
+
+.invest-filters .info-div {
+    background: #E1E1E1;
+    top: -27px;
+    padding-left: 8px;
+    padding-bottom: 7px;
+    position: relative;
+    right: -9px;
+    box-sizing: border-box;
+}
+
+.invest-filters .info-div .fa {
+    position: absolute;
+    bottom: 3px;
+}
+
+.info-div:hover {
+    pointer: cursor
+}
+
+.info-div .fa {
+    position: relative;
+    left: 7px;
+    top: -3px;
+    color: #2f2f2f;
+}
+
+.notes {
+    width: 345px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 4px #eaeaea;
+    float: right;
+    bottom: -50%;
+    position: absolute;
+    right: -418px;
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem;
+    background: #f9f9f9;
+    z-index: 1000;
+    max-height: 21rem;
+    line-height: 2;
+    top: -2rem;
+    border-radius: 0;
+    border: 3px double #b1afaf;
+    padding: 19px;
+    background: #F6F7F7;
+    display: block;
+}
+
+.info-div.inner + .notes  {
+    right: -11px;
+}
+
+.layer.one .notes {
+    height: 17rem;
+}
+
+.layer.two .notes {
+    padding-bottom: 22rem;
+}
+
+.layer.three .notes {
+    height: 16rem;
+}
+    
+.layer.four .notes {
+    height: 11rem;
+}
+
+.notes-title {
+    color: #fd4a66 !important;
+    font-size: 14px !important;
+    padding: 0 !important;
+    text-align: center;
+    position: static;
+    margin: 0;
+    letter-spacing: 2px !important;
+    line-height: 1.5;
+    font-family: "verdana";
+    font-weight: bold !important;
+    text-align: center;
+    margin-top: 23px;
+    font-style: normal
+}
+
+.notes-body {
+    text-align: center;
+    font-size: 13px !important;
+    font-family: verdana;
+    padding: 0;
+    margin: 6px 0 0;
+    color: #000000 !important;
+    line-height: 1.8;
+    font-weight: normal !important;
+    border-radius: 2px;
+    display: block;
+    letter-spacing: 1px;
+    font-style: normal
+}
+
+.notes-body a { 
+    color: #99c6d8;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.notes-body a:hover { 
+    opacity: .7
+}
+
+.notes .fa-times {
+    position: relative;
+    float: right;
+    top: -52px;
+    color: #8a8585;
+    font-size: 12px;
+    text-shadow: 1px 1px #c0bebe;
+    right: -5px;
+}
+
+.container.active {
+    border: 3px
+}
+
+.notes .fa-times:hover {
+    cursor: pointer
+}
+
+.notes.move-one {
+    bottom: -16%;
+    right: -22rem;
+    opacity: 1
+}
+
+.notes.move-two {
+	width: 19rem;
+    bottom: -16%;
+    right: -20rem;
+    opacity: 1
+}
+
+.invest-filters .notes {
+    width: 319px;
+    top: -23px;
+    position: absolute;
+    right: -416px;
+    max-height: 15rem;
+}
+
+.logic-description .notes {
+    top: 0;
+    max-height: 12rem;
+}
+
+.invest-filters .info-div .fa {
+    top: 3px;
+}
+    
+.info-div.inner {
+    right: 25rem
+}
+
+.info-step {
+    font-size: 12px;
+    color: #2b2b2b;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    background: #c3c3c3;
+    padding: 0px 4px;
+    margin-top: -5px;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+
+.notes {
+    width: 400px !important;
+    box-shadow: 4px 4px 4px #eaeaea !important;
+    float: right !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    z-index: 1000 !important;
+    line-height: 2 !important;
+    top: -2rem !important;
+    border-radius: 11px !important;
+    padding: 19px !important;
+    background: #424242 !important;
+    border: none !important;
+    color: white !important;
+    top: -1rem !important
+}
+
+.notes-body,
+.notes .fa-times {
+    color: white !important;
+}
+
+@media only screen and (max-width:84rem) {
+    .notes {
+        top: 40px !important;
+        right: -317px;
+    }
+    .invest-filters .notes {
+        right: -317px !important;
+    }
+    
+    .info-div.inner + .notes {
+        top: 14px !important;
+    }
+}
+    
